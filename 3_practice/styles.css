@@ -23,14 +23,19 @@
 
 .text-two {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-image: url(eth.svg);
   background-repeat: no-repeat;
   background-color: rgb(25, 183, 222);
   background-size: 1000px;
   background-position: center;
-  padding: 350px;
-  align-items: flex-end;
+  height: 950px;
+  align-items: center;
+}
+
+.new {
+  display: flex;
+  margin-top: 200px;
 }
 
 .menu {
@@ -40,8 +45,9 @@
 
 .project {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
+  margin: 20px;
 }
 
 .button1:link,
