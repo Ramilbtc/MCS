@@ -54,6 +54,8 @@
   display: flex;
   justify-content: center;
   background-image: url('evian.png');
+  align-items: center;
+  background-size: cover;
 }
 
 h1 {
@@ -74,7 +76,8 @@ p {
 .bottles {
   display: flex;
   justify-content: space-between;
-  margin: 40px;
+  margin: 40px auto;
+  width: 1040px;
 }
 
 .description {
