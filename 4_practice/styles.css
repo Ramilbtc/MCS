@@ -23,6 +23,7 @@
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
 }
 
 h2 {
